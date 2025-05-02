@@ -1,0 +1,290 @@
+libcurl_la-ftplistparser.lo: ftplistparser.c curl_setup.h curl_config.h \
+ ../include/curl/curl.h ../include/curl/curlver.h \
+ ../include/curl/system.h /usr/ppc-amigaos/SDK/clib4/include/sys/types.h \
+ /usr/ppc-amigaos/SDK/clib4/include/features.h \
+ /usr/ppc-amigaos/SDK/clib4/include/sys/cdefs.h \
+ /usr/lib/gcc/ppc-amigaos/11.3.0/include/stddef.h \
+ /usr/ppc-amigaos/SDK/clib4/include/stdint.h \
+ /usr/lib/gcc/ppc-amigaos/11.3.0/include-fixed/limits.h \
+ /usr/lib/gcc/ppc-amigaos/11.3.0/include-fixed/syslimits.h \
+ /usr/ppc-amigaos/SDK/clib4/include/limits.h \
+ /usr/ppc-amigaos/SDK/clib4/include/sys/socket.h \
+ /usr/ppc-amigaos/SDK/clib4/include/sys/uio.h \
+ /usr/ppc-amigaos/SDK/clib4/include/sys/time.h \
+ /usr/ppc-amigaos/SDK/clib4/include/inttypes.h \
+ /usr/ppc-amigaos/SDK/clib4/include/stdio.h \
+ /usr/lib/gcc/ppc-amigaos/11.3.0/include/stdarg.h \
+ /usr/ppc-amigaos/SDK/clib4/include/wchar.h \
+ /usr/ppc-amigaos/SDK/clib4/include/time.h \
+ /usr/ppc-amigaos/SDK/clib4/include/endian.h \
+ /usr/ppc-amigaos/SDK/clib4/include/locale.h \
+ /usr/ppc-amigaos/SDK/clib4/include/sys/select.h \
+ /usr/ppc-amigaos/SDK/clib4/include/string.h \
+ /usr/ppc-amigaos/SDK/clib4/include/strings.h \
+ /usr/ppc-amigaos/SDK/clib4/include/signal.h \
+ /usr/ppc-amigaos/SDK/clib4/include/pthread.h \
+ /usr/ppc-amigaos/SDK/clib4/include/errno.h \
+ /usr/ppc-amigaos/SDK/clib4/include/sched.h ../include/curl/easy.h \
+ ../include/curl/multi.h ../include/curl/curl.h ../include/curl/urlapi.h \
+ ../include/curl/options.h ../include/curl/header.h \
+ ../include/curl/typecheck-gcc.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/types.h \
+ /usr/ppc-amigaos/SDK/include/include_h/amiga_compiler.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/execbase.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/lists.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/nodes.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/interrupts.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/libraries.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/tagitem.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/interfaces.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/io.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/ports.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/tasks.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/exectags.h \
+ /usr/ppc-amigaos/SDK/include/include_h/proto/exec.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/utility.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/data_structures.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/date.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/hooks.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/message_digest.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/name.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/pack.h \
+ /usr/ppc-amigaos/SDK/include/include_h/utility/random.h \
+ /usr/ppc-amigaos/SDK/include/include_h/interfaces/exec.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/exec.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/alerts.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/errors.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/initializers.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/memory.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/resident.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/semaphores.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/devices.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/avl.h \
+ /usr/ppc-amigaos/SDK/include/include_h/exec/debug.h \
+ /usr/ppc-amigaos/SDK/include/include_h/inline4/exec.h \
+ /usr/ppc-amigaos/SDK/include/include_h/proto/dos.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/dos.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/errors.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/dosextens.h \
+ /usr/ppc-amigaos/SDK/include/include_h/devices/timer.h \
+ /usr/ppc-amigaos/SDK/include/include_h/intuition/intuition.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/gfx.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/clip.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/view.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/copper.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/gfxnodes.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/monitor.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/displayinfo.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/modeid.h \
+ /usr/ppc-amigaos/SDK/include/include_h/hardware/custom.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/rastport.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/layers.h \
+ /usr/ppc-amigaos/SDK/include/include_h/graphics/text.h \
+ /usr/ppc-amigaos/SDK/include/include_h/devices/inputevent.h \
+ /usr/ppc-amigaos/SDK/include/include_h/intuition/screens.h \
+ /usr/ppc-amigaos/SDK/include/include_h/intuition/iobsolete.h \
+ /usr/ppc-amigaos/SDK/include/include_h/intuition/preferences.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/record.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/rdargs.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/dosasl.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/var.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/notify.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/datetime.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/exall.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/filehandler.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/dostags.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/mount.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/doshunks.h \
+ /usr/ppc-amigaos/SDK/include/include_h/libraries/hunk.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/path.h \
+ /usr/ppc-amigaos/SDK/include/include_h/dos/anchorpath.h \
+ /usr/ppc-amigaos/SDK/include/include_h/interfaces/dos.h \
+ /usr/ppc-amigaos/SDK/include/include_h/inline4/dos.h \
+ /usr/ppc-amigaos/SDK/clib4/include/unistd.h \
+ /usr/ppc-amigaos/SDK/clib4/include/fcntl.h \
+ /usr/ppc-amigaos/SDK/clib4/include/assert.h curl_setup_once.h \
+ /usr/ppc-amigaos/SDK/clib4/include/stdlib.h \
+ /usr/ppc-amigaos/SDK/clib4/include/alloca.h \
+ /usr/ppc-amigaos/SDK/clib4/include/ctype.h \
+ /usr/ppc-amigaos/SDK/clib4/include/sys/stat.h \
+ /usr/lib/gcc/ppc-amigaos/11.3.0/include/stdbool.h curl_ctype.h urldata.h \
+ cookie.h psl.h formdata.h \
+ /usr/ppc-amigaos/SDK/clib4/include/netinet/in.h timeval.h timediff.h \
+ http_chunks.h hostip.h hash.h llist.h curl_addrinfo.h \
+ /usr/ppc-amigaos/SDK/clib4/include/netdb.h \
+ /usr/ppc-amigaos/SDK/clib4/include/arpa/inet.h asyn.h \
+ /usr/ppc-amigaos/SDK/clib4/include/setjmp.h splay.h dynbuf.h mime.h \
+ imap.h pingpong.h curl_sasl.h bufref.h pop3.h smtp.h ftp.h file.h \
+ vssh/ssh.h ../lib/curl_setup.h http.h \
+ /usr/ppc-amigaos/SDK/local/clib4/include/nghttp2/nghttp2.h \
+ /usr/ppc-amigaos/SDK/local/clib4/include/nghttp2/nghttp2ver.h rtsp.h \
+ smb.h mqtt.h wildcard.h multihandle.h conncache.h socketpair.h quic.h \
+ c-hyper.h fileinfo.h strtoofft.h ftplistparser.h curl_fnmatch.h \
+ curl_memory.h multiif.h memdebug.h
+curl_setup.h:
+curl_config.h:
+../include/curl/curl.h:
+../include/curl/curlver.h:
+../include/curl/system.h:
+/usr/ppc-amigaos/SDK/clib4/include/sys/types.h:
+/usr/ppc-amigaos/SDK/clib4/include/features.h:
+/usr/ppc-amigaos/SDK/clib4/include/sys/cdefs.h:
+/usr/lib/gcc/ppc-amigaos/11.3.0/include/stddef.h:
+/usr/ppc-amigaos/SDK/clib4/include/stdint.h:
+/usr/lib/gcc/ppc-amigaos/11.3.0/include-fixed/limits.h:
+/usr/lib/gcc/ppc-amigaos/11.3.0/include-fixed/syslimits.h:
+/usr/ppc-amigaos/SDK/clib4/include/limits.h:
+/usr/ppc-amigaos/SDK/clib4/include/sys/socket.h:
+/usr/ppc-amigaos/SDK/clib4/include/sys/uio.h:
+/usr/ppc-amigaos/SDK/clib4/include/sys/time.h:
+/usr/ppc-amigaos/SDK/clib4/include/inttypes.h:
+/usr/ppc-amigaos/SDK/clib4/include/stdio.h:
+/usr/lib/gcc/ppc-amigaos/11.3.0/include/stdarg.h:
+/usr/ppc-amigaos/SDK/clib4/include/wchar.h:
+/usr/ppc-amigaos/SDK/clib4/include/time.h:
+/usr/ppc-amigaos/SDK/clib4/include/endian.h:
+/usr/ppc-amigaos/SDK/clib4/include/locale.h:
+/usr/ppc-amigaos/SDK/clib4/include/sys/select.h:
+/usr/ppc-amigaos/SDK/clib4/include/string.h:
+/usr/ppc-amigaos/SDK/clib4/include/strings.h:
+/usr/ppc-amigaos/SDK/clib4/include/signal.h:
+/usr/ppc-amigaos/SDK/clib4/include/pthread.h:
+/usr/ppc-amigaos/SDK/clib4/include/errno.h:
+/usr/ppc-amigaos/SDK/clib4/include/sched.h:
+../include/curl/easy.h:
+../include/curl/multi.h:
+../include/curl/curl.h:
+../include/curl/urlapi.h:
+../include/curl/options.h:
+../include/curl/header.h:
+../include/curl/typecheck-gcc.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/types.h:
+/usr/ppc-amigaos/SDK/include/include_h/amiga_compiler.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/execbase.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/lists.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/nodes.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/interrupts.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/libraries.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/tagitem.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/interfaces.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/io.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/ports.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/tasks.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/exectags.h:
+/usr/ppc-amigaos/SDK/include/include_h/proto/exec.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/utility.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/data_structures.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/date.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/hooks.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/message_digest.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/name.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/pack.h:
+/usr/ppc-amigaos/SDK/include/include_h/utility/random.h:
+/usr/ppc-amigaos/SDK/include/include_h/interfaces/exec.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/exec.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/alerts.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/errors.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/initializers.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/memory.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/resident.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/semaphores.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/devices.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/avl.h:
+/usr/ppc-amigaos/SDK/include/include_h/exec/debug.h:
+/usr/ppc-amigaos/SDK/include/include_h/inline4/exec.h:
+/usr/ppc-amigaos/SDK/include/include_h/proto/dos.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/dos.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/errors.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/dosextens.h:
+/usr/ppc-amigaos/SDK/include/include_h/devices/timer.h:
+/usr/ppc-amigaos/SDK/include/include_h/intuition/intuition.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/gfx.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/clip.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/view.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/copper.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/gfxnodes.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/monitor.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/displayinfo.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/modeid.h:
+/usr/ppc-amigaos/SDK/include/include_h/hardware/custom.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/rastport.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/layers.h:
+/usr/ppc-amigaos/SDK/include/include_h/graphics/text.h:
+/usr/ppc-amigaos/SDK/include/include_h/devices/inputevent.h:
+/usr/ppc-amigaos/SDK/include/include_h/intuition/screens.h:
+/usr/ppc-amigaos/SDK/include/include_h/intuition/iobsolete.h:
+/usr/ppc-amigaos/SDK/include/include_h/intuition/preferences.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/record.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/rdargs.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/dosasl.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/var.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/notify.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/datetime.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/exall.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/filehandler.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/dostags.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/mount.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/doshunks.h:
+/usr/ppc-amigaos/SDK/include/include_h/libraries/hunk.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/path.h:
+/usr/ppc-amigaos/SDK/include/include_h/dos/anchorpath.h:
+/usr/ppc-amigaos/SDK/include/include_h/interfaces/dos.h:
+/usr/ppc-amigaos/SDK/include/include_h/inline4/dos.h:
+/usr/ppc-amigaos/SDK/clib4/include/unistd.h:
+/usr/ppc-amigaos/SDK/clib4/include/fcntl.h:
+/usr/ppc-amigaos/SDK/clib4/include/assert.h:
+curl_setup_once.h:
+/usr/ppc-amigaos/SDK/clib4/include/stdlib.h:
+/usr/ppc-amigaos/SDK/clib4/include/alloca.h:
+/usr/ppc-amigaos/SDK/clib4/include/ctype.h:
+/usr/ppc-amigaos/SDK/clib4/include/sys/stat.h:
+/usr/lib/gcc/ppc-amigaos/11.3.0/include/stdbool.h:
+curl_ctype.h:
+urldata.h:
+cookie.h:
+psl.h:
+formdata.h:
+/usr/ppc-amigaos/SDK/clib4/include/netinet/in.h:
+timeval.h:
+timediff.h:
+http_chunks.h:
+hostip.h:
+hash.h:
+llist.h:
+curl_addrinfo.h:
+/usr/ppc-amigaos/SDK/clib4/include/netdb.h:
+/usr/ppc-amigaos/SDK/clib4/include/arpa/inet.h:
+asyn.h:
+/usr/ppc-amigaos/SDK/clib4/include/setjmp.h:
+splay.h:
+dynbuf.h:
+mime.h:
+imap.h:
+pingpong.h:
+curl_sasl.h:
+bufref.h:
+pop3.h:
+smtp.h:
+ftp.h:
+file.h:
+vssh/ssh.h:
+../lib/curl_setup.h:
+http.h:
+/usr/ppc-amigaos/SDK/local/clib4/include/nghttp2/nghttp2.h:
+/usr/ppc-amigaos/SDK/local/clib4/include/nghttp2/nghttp2ver.h:
+rtsp.h:
+smb.h:
+mqtt.h:
+wildcard.h:
+multihandle.h:
+conncache.h:
+socketpair.h:
+quic.h:
+c-hyper.h:
+fileinfo.h:
+strtoofft.h:
+ftplistparser.h:
+curl_fnmatch.h:
+curl_memory.h:
+multiif.h:
+memdebug.h:
